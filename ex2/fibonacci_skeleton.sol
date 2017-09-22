@@ -2,7 +2,6 @@ pragma solidity ^0.4.16;
 
 
 contract Fibonacci {
-<<<<<<< HEAD
     
     mapping (uint => uint) public fibResults;
     uint lastPositionCalculated;
@@ -83,12 +82,4 @@ contract Fibonacci {
     /* Add a fallback function to prevent contract payability and non-existent function calls */
     
     function () {}
-=======
-	function calculate(uint position) returns (uint result) {
-		/* Carry out calculations to find the nth Fibonacci number */
-	}
-
-	/* Add a fallback function to prevent contract payability and non-existent function calls */
-
->>>>>>> 00969dd846907c177e17b2d9766a5c1b7411c4d0
 }
