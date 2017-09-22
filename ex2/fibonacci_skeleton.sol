@@ -2,7 +2,6 @@ pragma solidity ^0.4.16;
 
 
 contract Fibonacci {
-    
     mapping (uint => uint) public fibResults;
     uint lastPositionCalculated;
     
